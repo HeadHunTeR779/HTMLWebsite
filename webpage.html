@@ -8,9 +8,27 @@
 
   <body>
 
-    <img src = "m.png" width = '50' height = '150' align = 'left'>
+    <form>
 
-    <p> Rick Sanchez </p>
+      <p>Username: <input type = 'text' placeholder = 'your username'></p>
+
+      <p>Stay logged in: <input type = 'checkbox' checked></p>
+
+      <p>Under 18: <input type = 'radio' name = 'age' value = 'u18'></p>
+      <p>Over 18: <input type = 'radio' name = 'age' value = 'o18'></p>
+
+      <p>Favourite food:
+        <select>
+
+          <option>Pizza</option>
+          <option selected>Ice Cream</option>
+          <option>Bacon</option>
+
+        </select>
+      </p>
+
+      <input type = 'submit' value = 'Hit'>
+    </form>
 
   </body>
 
